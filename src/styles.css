@@ -1,1 +1,111 @@
-/* You can add global styles to this file, and also import other style files */
+
+    .logos {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap:15px;
+        cursor: pointer;
+    
+    }
+    
+    .fa-brands:hover {
+        color: rgb(192, 192, 192)!important; 
+    } 
+    
+    
+     .iconos{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap:15px;
+    } 
+    .caja1 {
+        width: 100%;
+        padding-top:0;
+        padding-bottom:0;
+        }
+    .caja1 img {
+        height: 100%;
+        width: 100%;
+        object-fit:cover;
+        object-position: center;
+       }
+    
+    .perfil {
+        border: solid rgb(193, 191, 191);
+        background-color: rgb(255, 185, 185);   
+        border-radius: 50%;
+        width: 120px;
+        height: 120px;
+        position: relative;
+        z-index: 1;
+        top: -60px;
+        transition: 0.5s;
+        overflow: hidden;
+    }
+    
+    /* .perfil:hover {
+        height: 140px;
+        width: 140px;
+    } */
+    
+    .perfil img {
+        height: 100%;
+        width: 100%;
+        object-fit:cover;
+        object-position: top center;
+    }
+    
+    .perfil img {
+        height: 120%;
+        transition: 0.5s;
+    }
+    
+    .perfil img:hover{
+    position: relative;
+    height:200%;
+    align-content: center;
+    }
+    
+    
+    .icon-ArgPro {
+        height: 70px;
+        width: 140px;
+    }
+    .icon-ArgPro img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+       
+    }
+    .row{
+        border: solid rgb(0, 0, 0);
+        border-radius: 10px;
+    }
+    .lapiz{
+        position: 0;
+        float: right;
+        margin-left:15px;
+        cursor: pointer;
+        }
+    .container{
+        max-width:1200px;
+        position: relative;
+        top: -60px;
+        border-radius: 10px;
+        }
+    .progress{
+            width: 95%;
+        }
+    
+    p {
+        display:inline;
+    }
+    .items {
+        display:inline;
+    }
+
+    .contacto {
+        margin: right;
+    }

@@ -1,0 +1,21 @@
+
+{"header":
+{"fondo":"../assets/aquarelas.jpg",
+"perfil":"../assets/perfil.jpeg"
+},
+    
+    "educacion":[{
+    "titulo":"Director de Arte en Publicidad",
+    "school":"AAAP Asociación Argentina de Agencias de Publicidad"
+    },
+    {
+    "titulo":"Ilustrador",
+    "school":"Escuela de Garaycochea (José Marchi, Santiago Dufour)"
+    },
+    {
+    "titulo":"Actor",
+    "school":"Diversos profesores y talleres de teatro"
+    }
+]
+
+}

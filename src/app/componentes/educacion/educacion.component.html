@@ -1,0 +1,16 @@
+<div class="container p-3 my-3 border">
+    <h5>
+      Educación
+      <i class="fa-sharp fa-solid fa-plus lapiz"></i>
+    </h5>
+    
+    <div >
+      <p *ngFor="let educacion of educacionList">
+        {{educacion.titulo}} - {{educacion.school}}
+        <i class="fa-solid fa-xmark lapiz"></i>
+        <i class="fa-sharp fa-solid fa-pen-fancy lapiz"></i><br>
+      </p>
+    </div>
+
+    
+  </div>
